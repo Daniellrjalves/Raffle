@@ -71,8 +71,34 @@ button:active{
     opacity: 0.8;
 }
 
-/* 
-remove setas do input tipo number
+@media screen and ( max-width: 760px){
+    body {
+        margin: auto;
+        width: auto;
+    }
 
-input[type=number]::-webkit-inner-spin-button{
-    appearance: none; 
+    img {
+        margin: auto;
+        position: sticky;
+    }
+
+    input {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 115px;
+        width: auto;
+        position: sticky;
+    }
+
+    h2 {
+        margin: auto;
+    }
+
+    button {
+        margin: auto;
+        position: sticky;
+    }
+}
